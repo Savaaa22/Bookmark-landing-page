@@ -9,3 +9,57 @@
   overflow: hidden;
   transition: 0.5s;
 }
+
+.header-nav,
+.nav-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px 0 20px;
+  margin-bottom: 40px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.white-line {
+  color: $grayish-blue;
+  opacity: 0.1;
+  width: 90%;
+  margin: 20px auto 20px auto;
+}
+.nav-ul {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+.nav-ul li {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin: 0 auto;
+  text-decoration: none;
+  list-style: none;
+}
+.login-btn {
+  border: 3px solid #fff;
+  border-radius: 6px;
+  width: 90%;
+  padding: 10px 0 10px 0;
+}
+.nav-bot {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.nav-bot > img {
+  margin-right: 15px;
+}
+.twitter {
+  margin-left: 15px;
+}
