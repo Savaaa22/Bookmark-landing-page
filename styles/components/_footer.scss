@@ -1,0 +1,38 @@
+footer {
+  background-color: $very-dark-blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+footer ul {
+  list-style: none;
+}
+footer li {
+  padding: 15px;
+}
+
+footer img {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.footer-fb {
+  margin-right: 15px;
+}
+.footer-tw {
+  margin-left: 15px;
+}
+.footer-socials {
+  margin-bottom: 30px;
+}

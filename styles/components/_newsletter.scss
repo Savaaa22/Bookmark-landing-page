@@ -1,0 +1,52 @@
+.newsletter {
+  background-color: $soft-blue;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.newsletter h2 {
+  width: 350px;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.newsletter span {
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.email-input {
+  width: 330px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+}
+
+::placeholder {
+  padding-left: 20px;
+  color: $grayish-blue;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.newsletter button {
+  width: 330px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: $soft-red;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.red-border {
+  border: 2px solid $soft-red;
+}

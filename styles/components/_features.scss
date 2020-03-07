@@ -1,0 +1,78 @@
+.features h2 {
+  text-align: center;
+  color: $very-dark-blue;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.features {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 90%;
+}
+
+.features p {
+  text-align: center;
+  color: $grayish-blue;
+  line-height: 1.6;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.features h3 {
+  text-align: center;
+  color: $grayish-blue;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 20px 0 20px 0;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.tabs-line {
+  color: $grayish-blue;
+  opacity: 0.4;
+}
+
+.features-tabs-click {
+  color: $very-dark-blue !important;
+  border-bottom: 4px solid $soft-red;
+}
+
+.tab1,
+.tab2,
+.tab3 {
+  cursor: pointer;
+}
+
+.tab1-content,
+.tab2-content,
+.tab3-content {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.tab1-content img,
+.tab2-content img,
+.tab3-content img {
+  width: 307.5px;
+}
+
+.tab1-content h2,
+.tab2-content h2,
+.tab3-content h2 {
+  color: $very-dark-blue;
+  margin-top: 30px;
+}
+
+.tab1-content p,
+.tab2-content p,
+.tab3-content p {
+  color: $grayish-blue;
+  margin-top: 15px;
+}
+
+.hide {
+  display: none;
+}

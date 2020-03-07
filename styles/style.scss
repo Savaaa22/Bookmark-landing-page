@@ -1,7 +1,9 @@
 @import "./base/base";
 @import "./base/specs";
 @import "./components/hamburger-menu";
-
-.txt {
-  opacity: 0;
-}
+@import "./components/hero";
+@import "./components/features";
+@import "./components/extension";
+@import "./components/faq";
+@import "./components/newsletter";
+@import "./components/footer";
