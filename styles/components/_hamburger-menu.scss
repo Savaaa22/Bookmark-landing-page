@@ -42,6 +42,7 @@
   margin: 0 auto;
   text-decoration: none;
   list-style: none;
+  cursor: pointer;
 }
 .login-btn {
   border: 3px solid #fff;
@@ -70,4 +71,65 @@
 
 .white-bookmark {
   filter: brightness(0) invert(1);
+}
+
+.icon-hamburger {
+  cursor: pointer;
+}
+.icon-close {
+  cursor: pointer;
+}
+
+.header-nav-desktop ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav-desktop a {
+  text-decoration: none;
+  color: $very-dark-blue;
+  padding: 25px;
+  font-size: 17.5px;
+  font-weight: 400;
+}
+.header-nav-desktop {
+  display: none;
+}
+
+.red-btn {
+  background-color: $soft-red;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.red-btn a {
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .icon-hamburger {
+    display: none;
+  }
+  .header-nav-desktop {
+    display: flex;
+  }
+  .logo-bookmark {
+    height: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  .logo-bookmark {
+    margin-left: 35px;
+  }
+}
+
+.header-nav-desktop a:hover {
+  color: $soft-red;
+}
+
+.red-btn:hover {
+  border: 1px solid $soft-red;
+  background-color: #fff;
 }

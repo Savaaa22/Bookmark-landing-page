@@ -32,7 +32,7 @@
 
 .tabs-line {
   color: $grayish-blue;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 .features-tabs-click {
@@ -75,4 +75,97 @@
 
 .hide {
   display: none;
+}
+
+.more-info {
+  background-color: $soft-blue;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  width: 130px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .more-info {
+    display: inline-block;
+  }
+}
+@media (min-width: 992px) {
+  .features h2 {
+    font-size: 30px;
+  }
+  .features p {
+    font-size: 18px;
+    width: 540px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .tabs-line {
+    display: none;
+  }
+  .features-tabs {
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+  }
+  .show-line {
+    display: flex;
+    opacity: 0.6;
+    width: 670px;
+    margin: 0 auto;
+  }
+  .tab1-content,
+  .tab2-content,
+  .tab3-content {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+  }
+  .hide {
+    display: none;
+  }
+  .tab-content-flex {
+    width: 400px;
+  }
+  .tab-content-flex h2 {
+    text-align: left;
+    font-size: 28px;
+  }
+  .tab-content-flex p {
+    text-align: left;
+    font-size: 20px;
+  }
+  .tab1-content img,
+  .tab2-content img,
+  .tab3-content img {
+    width: 350px;
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .tab1-content img,
+  .tab2-content img,
+  .tab3-content img {
+    width: 450px;
+    margin-right: 60px;
+  }
+}
+.tab1:hover,
+.tab2:hover,
+.tab3:hover {
+  color: $soft-red;
+}
+
+@media (min-width: 1920px) {
+  .tab1-content img,
+  .tab2-content img,
+  .tab3-content img {
+    width: 500px;
+  }
 }

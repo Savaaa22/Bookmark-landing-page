@@ -57,10 +57,57 @@
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .extension-chrome > img,
 .extension-firefox > img,
 .extension-opera > img {
   margin-top: 30px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  .extension h2 {
+    font-size: 30px;
+  }
+  .extension p {
+    width: 600px;
+    font-size: 20px;
+  }
+  .extension-flex {
+    display: flex;
+    align-items: flex-start;
+    height: 500px;
+  }
+  .extension-chrome h3,
+  .extension-firefox h3,
+  .extension-opera h3 {
+    font-size: 25px;
+  }
+  .min-version {
+    font-size: 18px;
+  }
+  .extension-chrome button,
+  .extension-firefox button,
+  .extension-opera button {
+    font-size: 17px;
+  }
+  .extension-firefox {
+    margin-right: 20px;
+    align-self: center;
+  }
+  .extension-opera {
+    align-self: flex-end;
+  }
+  .extension-chrome {
+    margin-right: 20px;
+  }
+}
+
+.extension-chrome button:hover,
+.extension-firefox button:hover,
+.extension-opera button:hover {
+  border: 1px solid $soft-blue;
+  color: $soft-blue;
+  background-color: #fff;
 }

@@ -45,8 +45,25 @@
   font-size: 15px;
   margin-top: 20px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .red-border {
   border: 2px solid $soft-red;
+}
+
+@media (min-width: 686px) {
+  .newsletter button {
+    width: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .newsletter h2 {
+    font-size: 32px;
+    width: 420px;
+  }
+  .newsletter span {
+    font-size: 16px;
+  }
 }

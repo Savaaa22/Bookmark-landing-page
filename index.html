@@ -61,6 +61,14 @@
           alt="logo-bookmark"
           class="logo-bookmark"
         />
+        <div class="header-nav-desktop">
+          <ul>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">PRICING</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li class="red-btn"><a href="#">LOGIN</a></li>
+          </ul>
+        </div>
         <img
           src="./images/icon-hamburger.svg"
           alt="icon-hamburger"
@@ -81,14 +89,17 @@
           src="./images/illustration-hero.svg"
           alt="illustration-hero"
         />
-        <h1>A Simple Bookmark Manager</h1>
-        <p>
-          A clean and simple interface to organize your favourite websites. Open
-          a new browser tab and see your sites load instantly. Try it for free.
-        </p>
-        <div class="buttons">
-          <button class="blue-btn">Get it on Chrome</button>
-          <button class="gray-btn">Get it on Firefox</button>
+        <div class="hero-flex">
+          <h1>A Simple Bookmark Manager</h1>
+          <p>
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+          <div class="buttons">
+            <button class="blue-btn">Get it on Chrome</button>
+            <button class="gray-btn">Get it on Firefox</button>
+          </div>
         </div>
       </div>
       <!-- END OF HERO -->
@@ -108,20 +119,23 @@
           <h3 class="tab2">Speedy Searching</h3>
           <hr class="tabs-line" />
           <h3 class="tab3">Easy Sharing</h3>
-          <hr class="tabs-line" />
         </div>
+        <hr class="tabs-line show-line" />
         <!-- TAB 1 CONTENT-->
         <div class="tab1-content">
           <img
             src="./images/illustration-features-tab-1.svg"
             alt="illustration-features-tab-1"
           />
-          <h2>Bookmark in one click</h2>
-          <p>
-            Organize your bookmarks however you like. Our simple drag-and-drop
-            interface gives you coplete control over how you manage your
-            favourite sites.
-          </p>
+          <div class="tab-content-flex">
+            <h2>Bookmark in one click</h2>
+            <p>
+              Organize your bookmarks however you like. Our simple drag-and-drop
+              interface gives you coplete control over how you manage your
+              favourite sites.
+            </p>
+            <button type="submit" class="more-info">More Info</button>
+          </div>
         </div>
         <!-- TAB 2 CONTENT-->
         <div class="tab2-content hide">
@@ -129,11 +143,14 @@
             src="./images/illustration-features-tab-2.svg"
             alt="illustration-features-tab-2"
           />
-          <h2>Intelligent search</h2>
-          <p>
-            Our powerful search feature will help you find saved sites in no
-            time at all. No need to trawl through all of your bookmarks.
-          </p>
+          <div class="tab-content-flex">
+            <h2>Intelligent search</h2>
+            <p>
+              Our powerful search feature will help you find saved sites in no
+              time at all. No need to trawl through all of your bookmarks.
+            </p>
+            <button type="submit" class="more-info">More Info</button>
+          </div>
         </div>
         <!-- TAB 3 CONTENT-->
         <div class="tab3-content hide">
@@ -141,11 +158,14 @@
             src="./images/illustration-features-tab-3.svg"
             alt="illustration-features-tab-3"
           />
-          <h2>Share your bookmarks</h2>
-          <p>
-            Easily share your bookmarks and collections with others. Create a
-            shareable link that you can send at the click of a button.
-          </p>
+          <div class="tab-content-flex">
+            <h2>Share your bookmarks</h2>
+            <p>
+              Easily share your bookmarks and collections with others. Create a
+              shareable link that you can send at the click of a button.
+            </p>
+            <button type="submit" class="more-info">More Info</button>
+          </div>
         </div>
       </div>
       <!-- END OF FEATURES -->
@@ -158,28 +178,30 @@
           you've got a favourite you'd like us to prioritize.
         </p>
         <!--CHROME-->
-        <div class="extension-chrome">
-          <img src="./images/logo-chrome.svg" alt="logo-chrome" />
-          <h3>Add to Chrome</h3>
-          <span class="min-version">Minimum version 62</span>
-          <img src="./images/bg-dots.svg" alt="bg-dots" />
-          <button type="submit">Add & Install Extension</button>
-        </div>
-        <!--FIREFOX-->
-        <div class="extension-firefox">
-          <img src="./images/logo-firefox.svg" alt="logo-firefox" />
-          <h3>Add to Firefox</h3>
-          <span class="min-version">Minimum version 55</span>
-          <img src="./images/bg-dots.svg" alt="bg-dots" />
-          <button type="submit">Add & Install Extension</button>
-        </div>
-        <!--OPERA-->
-        <div class="extension-opera">
-          <img src="./images/logo-opera.svg" alt="logo-opera" />
-          <h3>Add to Opera</h3>
-          <span class="min-version">Minimum version 46</span>
-          <img src="./images/bg-dots.svg" alt="bg-dots" />
-          <button type="submit">Add & Install Extension</button>
+        <div class="extension-flex">
+          <div class="extension-chrome">
+            <img src="./images/logo-chrome.svg" alt="logo-chrome" />
+            <h3>Add to Chrome</h3>
+            <span class="min-version">Minimum version 62</span>
+            <img src="./images/bg-dots.svg" alt="bg-dots" />
+            <button type="submit">Add & Install Extension</button>
+          </div>
+          <!--FIREFOX-->
+          <div class="extension-firefox">
+            <img src="./images/logo-firefox.svg" alt="logo-firefox" />
+            <h3>Add to Firefox</h3>
+            <span class="min-version">Minimum version 55</span>
+            <img src="./images/bg-dots.svg" alt="bg-dots" />
+            <button type="submit">Add & Install Extension</button>
+          </div>
+          <!--OPERA-->
+          <div class="extension-opera">
+            <img src="./images/logo-opera.svg" alt="logo-opera" />
+            <h3>Add to Opera</h3>
+            <span class="min-version">Minimum version 46</span>
+            <img src="./images/bg-dots.svg" alt="bg-dots" />
+            <button type="submit">Add & Install Extension</button>
+          </div>
         </div>
       </div>
       <!-- END OF EXTENSION-->
@@ -188,11 +210,12 @@
       <div class="faq">
         <h2>Frequently Asked Questions</h2>
         <p class="faq-p">
-          Here are some of our FAQs. If you have any other question you'd like
+          Here are some of our FAQs. If you have any other questions you'd like
           answered please feel free to email us.
         </p>
         <!-- FAQ 1-->
         <div class="faq-1">
+          <hr class="hide-line-faq" />
           <div class="faq-flex">
             <h3>What is Bookmark?</h3>
             <img

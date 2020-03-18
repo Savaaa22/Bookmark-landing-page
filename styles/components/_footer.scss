@@ -20,6 +20,7 @@ footer ul {
 }
 footer li {
   padding: 15px;
+  cursor: pointer;
 }
 
 footer img {
@@ -29,10 +30,46 @@ footer img {
 
 .footer-fb {
   margin-right: 15px;
+  cursor: pointer;
 }
 .footer-tw {
   margin-left: 15px;
+  cursor: pointer;
 }
 .footer-socials {
   margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer ul {
+    display: flex;
+    align-items: center;
+  }
+  .footer-socials {
+    margin-top: 25px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+  }
+  footer img {
+    margin-top: 15px;
+    margin-left: 70px;
+  }
+  footer ul {
+    margin-top: 0;
+    margin-left: -15vw;
+  }
+}
+@media (min-width: 1440px) {
+  footer ul {
+    margin-left: -35vw;
+  }
+}
+
+footer a:hover {
+  color: $soft-red;
 }

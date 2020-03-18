@@ -15,7 +15,10 @@ const tab2Content = document.querySelector(".tab2-content");
 const tab3Content = document.querySelector(".tab3-content");
 
 // FAQ
-
+const faq1 = document.querySelector(".faq-1");
+const faq2 = document.querySelector(".faq-2");
+const faq3 = document.querySelector(".faq-3");
+const faq4 = document.querySelector(".faq-4");
 const arrow1 = document.querySelector(".arrow1");
 const arrow2 = document.querySelector(".arrow2");
 const arrow3 = document.querySelector(".arrow3");
@@ -75,22 +78,22 @@ tab3.addEventListener("click", function() {
 
 // FAQ
 
-arrow1.addEventListener("click", function() {
+faq1.addEventListener("click", function() {
   answer1.classList.toggle("hide");
   arrow1.classList.toggle("red-arrow");
 });
 
-arrow2.addEventListener("click", function() {
+faq2.addEventListener("click", function() {
   answer2.classList.toggle("hide");
   arrow2.classList.toggle("red-arrow");
 });
 
-arrow3.addEventListener("click", function() {
+faq3.addEventListener("click", function() {
   answer3.classList.toggle("hide");
   arrow3.classList.toggle("red-arrow");
 });
 
-arrow4.addEventListener("click", function() {
+faq4.addEventListener("click", function() {
   answer4.classList.toggle("hide");
   arrow4.classList.toggle("red-arrow");
 });
